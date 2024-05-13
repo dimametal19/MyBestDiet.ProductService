@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "Localhost": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "localhost"
+      }
+    },
+    "Development": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "development"
+      }
+    }
+  }
+}
+

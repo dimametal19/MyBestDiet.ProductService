@@ -2,8 +2,15 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="DataContracts\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MyBestDiet.ProductService.DomainModel\MyBestDiet.ProductService.DomainModel.csproj" />
+      <ProjectReference Include="..\MyBestDiet.ProductService.Repositories\MyBestDiet.ProductService.Repositories.csproj" />
+    </ItemGroup>
 
 </Project>
